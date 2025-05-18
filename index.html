@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samiran Samanta | Database Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .btn-hire {
+      background: #e7d8d5;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+    }
+    .hero-text {
+      max-width: 60%;
+    }
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero-text h1 span {
+      color: #4b0082;
+    }
+    .hero-text p {
+      font-size: 16px;
+      color: #333;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+    }
+    .download-btn {
+      background: #6a0dad;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .circle-btn {
+      background: #f5f0f0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .hero-image {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: #5c2cb1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .hero-image img {
+      height: 90%;
+    }
+    .hero-image2 {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin-left: 40px;
+      margin-right: 40px;
+      border-radius: 40%;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* overflow: hidden; */
+    }
+    .hero-image2 img {
+      height: 90%;
+    }
+    .social-icons {
+      margin: 40px 60px;
+      display: flex;
+      gap: 30px;
+    }
+    .social-icons a {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 60px;
+      gap: 20px;
+    }
+.card {
+  display: flex;
+  width: 25%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center; /* Vertically center content */
+  padding: 20px;
+  background: #fff;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 20px; /* Space between image and text */
+}
+
+    .card-content {
+      padding: 20px;
+    }
+    .section-header {
+      text-align: center;
+      font-size: 32px;
+      margin-top: 60px;
+    }
+    .skills {
+      padding: 60px;
+      background: #f9f9f9;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      text-align: center;
+    }
+    .skill-item {
+      text-align: center;
+    }
+    .progress-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: conic-gradient(#4b0082 calc(var(--percentage) * 1%), #eee 0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0 auto 10px;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 60px;
+      flex-wrap: wrap;
+    }
+    footer .left, footer .right {
+      flex: 1;
+    }
+    footer .right {
+      text-align: right;
+    }
+    footer a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 8px;
+    }
+    footer p {
+      margin-top: 20px;
+      font-size: 14px;
+      text-align: center;
+      width: 100%;
+    }
+.Ecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.Ecard img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: auto;
+}
+
+.Ecard-content {
+  margin-top: auto;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Samiran Samanta</h1>
+    <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn-hire">Hire Me</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I Am <span>Database Developer</span></h1>
+      <p>I am a Database Developer, proficient in designing and maintaining databases.</p>
+      <div class="buttons">
+        <a href="Resume.pdf" class="download-btn" target="_blank">Download CV</a>
+        <div class="circle-btn">&#9654;</div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="Profile.jpg" alt="Profile" />
+    </div>
+  </section>
+  <div class="social-icons" style="color: black">
+    <a style="color: black" href="https://github.com/SamiranSamanta2023" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a style="color: black" href="https://www.linkedin.com/in/mr-samiran" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a style="color: black" href="https://youtube.com/@samiransamanta6918?si=hTJGZtbQiFiw00oB" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+    <a style="color: black" href="https://www.facebook.com/profile.php?id=100071093464355" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+  </div>
+
+  <h2 class="section-header" id="education"><span>Education</span></h2>
+
+<div class="card-section"> 
+  <div class="Ecard"> 
+    <img src="download.png" alt="College Logo" />
+    <div class="Ecard-content"> 
+      <h3>Heritage Institute of Technology</h3>
+      <p>Bachelor of Technology (Computer Science & Engineering), 2019–2022</p>
+      <p>DGPA : 7.73</p>
+    </div>
+  </div>
+  <div class="Ecard"> 
+    <img src="ngp.jpg" alt="College Logo" />
+    <div class="Ecard-content"> 
+      <h3>Nalhati Govt. Of Polytechnic</h3>
+      <p>Diploma (Computer Science & Technology), 2016–2019</p>
+      <p>Aggregate percentage : 72%</p>
+    </div>
+  </div>
+</div>
+
+
+  <h2 class="section-header" id="skills">Skills</h2>
+
+  <section class="skills">
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 95;">95%</div>
+      <h4>MySQL</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 85;">85%</div>
+      <h4>Oracle</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 80;">80%</div>
+      <h4>MongoDB</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 75;">75%</div>
+      <h4>PostgreSQL</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 88;">97%</div>
+      <h4>MS SQL Server</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 70;">70%</div>
+      <h4>Python</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 65;">65%</div>
+      <h4>Node.js</h4>
+    </div>
+    <div class="skill-item">
+      <div class="progress-circle" style="--percentage: 60;">60%</div>
+      <h4>API</h4>
+    </div>
+  </section>
+
+  <h2 class="section-header" id="certificate">Certificate</h2>
+
+  <div class="card-section">
+    <div class="card">
+      <img src="ardent.jpg"College Logo" />
+      <div class="card-content">
+        <h3>Android Application Development</h3>
+        <p>Ardent - Jan 2019</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="bolt.png" alt="College Logo" />
+      <div class="card-content">
+        <h3>Internet of Things With Machine Learning</h3>
+        <p>Bolt IOT - Aug 2021</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Coursera1.png" alt="College Logo" />
+      <div class="card-content">
+        <h3>Introduction To Web Development</h3>
+        <p>Coursera - May,2022</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="udemy.webp" alt="College Logo" />
+      <div class="card-content">
+        <h3>Ms SQL Server </h3>
+        <p>Udemy - April,2025</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Tute-dude.png" alt="College Logo" />
+      <div class="card-content">
+        <h3>MERN Stack</h3>
+        <p>Tutedude  – April,2025</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Coursera1.png" alt="College Logo" />
+      <div class="card-content">
+        <h3>Machine Learning</h3>
+        <p>Coursera - April,2025</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-header" id="projects">Projects</h2>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1> <span>Nosis</span></h1>
+      <h2> Domain: Healthcare & Pharma Supply Chain </h2>
+      <p1>Developed a database for comprehensive healthcare management platform that streamlined the interactions between 
+          doctors, hospitals, sales representatives, distributors, and manufacturers. </p>
+      <div class="buttons">
+        <button class="download-btn">Open Project</button>
+      </div>
+    </div>
+    <div class="hero-image2">
+      <img src="nosis.png" alt="Profile" />
+    </div>
+  </section>
+    <section class="hero">
+    <div class="hero-image2">
+      <img src="prowiz.webp" alt="Profile" />
+    </div>
+    <div class="hero-text">
+      <h1> <span>Prowiz</span></h1>
+      <h2> Domain:  Market Research & Survey Platform </h2>
+      <p1>Built a multilingual survey and questionnaire platform tailored for businesses across diverse categories.  </p>
+      <div class="buttons">
+        <button class="download-btn">Open Project</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1> <span>Revveon</span></h1>
+      <h2> Domain:  Startup & Investment Platform </h2>
+      <p1>Designed and implemented a funding platform connecting startup founders and enterprise leaders with potential 
+        investors.</p>
+      <div class="buttons">
+        <button class="download-btn">Open Project</button>
+      </div>
+    </div>
+    <div class="hero-image2">
+      <img src="revveon.jpg" alt="Profile" />
+    </div>
+  </section>
+  <footer>
+    <div class="left">
+        <p>Contact<br>Mobile: +91 7001531186<br>Email: samiransamanta2023@gmail.com<br>Address: Kolkata, West Bengal, India</p>
+      </div>
+    <div class="right">
+        <div class="social-icons">
+            <a href="https://github.com/SamiranSamanta2023" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/mr-samiran" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://youtube.com/@samiransamanta6918?si=hTJGZtbQiFiw00oB" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+            <a href="https://www.facebook.com/profile.php?id=100071093464355" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+          </div>
+    </div>
+   </footer>
+    <p style="text-align: center;">© 2025 Samiran Samanta. All rights reserved.</p>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
