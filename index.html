@@ -80,20 +80,24 @@
       justify-content: center;
       cursor: pointer;
     }
-    .hero-image {
-      position: relative;
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      background: #5c2cb1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-    .hero-image img {
-      height: 90%;
-    }
+.hero-image {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Perfect circle */
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the container and maintains aspect ratio */
+}
+
     .hero-image2 {
       position: relative;
       width: 200px;
